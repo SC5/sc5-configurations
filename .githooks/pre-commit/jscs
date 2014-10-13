@@ -1,7 +1,8 @@
 #!/bin/sh
 #
-# Git hook to check JS coding convention with JSCS. Can be used as
-# .git/hooks/pre-commit
+# Git hook to check JS coding convention with JSCS.
+# Is recommended to use with git-hook npm package
+# Also can be used as .git/hooks/pre-commit
 # Requires JSCS to be installed as a local package. Run `npm install jscs --save-dev` to have it.
 
 if git rev-parse --verify HEAD >/dev/null 2>&1
