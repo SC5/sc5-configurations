@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/SC5/sc5-configurations/issues"
   },
-  "homepage": "https://github.com/SC5/sc5-configurations"
+  "homepage": "https://github.com/SC5/sc5-configurations",
+  "devDependencies": {
+    "git-hooks": "0.0.7"
+  }
 }
